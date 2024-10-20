@@ -31,7 +31,7 @@ class website
     System.out.println("Government website");
     else if(type.matches("org"))
     System.out.println("organizations website");
-    else if(type.matches("net"))
+    else if(type.equals("net"))
     System.out.println("Networking Website");
     else
     System.out.println("Unknown type");
