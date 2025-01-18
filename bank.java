@@ -5,7 +5,8 @@ class account
     public String add;
     public String phno;
     public date dob;
-
+    public double balance;
+    
     public account(long accno,String name,String phno)
     {
         
