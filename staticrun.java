@@ -1,4 +1,5 @@
- class stats
+ //static 
+class stats
  {
     static int x=10;
     int y=20;
@@ -8,7 +9,8 @@
         System.out.println(x+" "+y);
     }
 
-    static void display()
+    //static
+     void display()
     {
         System.out.println(x);
     }
